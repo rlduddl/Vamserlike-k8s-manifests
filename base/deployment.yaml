@@ -34,10 +34,16 @@ spec:
               value: "ap-northeast-2"
 
             - name: Cognito__UserPoolId
-              value: "ap-northeast-2_5wTvQXSQn"
+              valueFrom:
+                secretKeyRef:
+                  name: vamserlike-cognito-secret
+                  key: userPoolId
 
             - name: Cognito__ClientId
-              value: "13lnqkam2n6hqjis0lla7fe06d"
+              valueFrom:
+                secretKeyRef:
+                  name: vamserlike-cognito-secret
+                  key: clientId
 
             - name: MySql__ConnectionString
               valueFrom:
