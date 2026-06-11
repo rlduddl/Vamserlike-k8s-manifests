@@ -9,4 +9,4 @@ resources:
 images:
   - name: vamserlike-backend
     newName: 236052538859.dkr.ecr.ap-northeast-2.amazonaws.com/vamserlike-backend
-    newTag: fcb57d9ea3eeb34556910ce76bb94745c30b979c
+    newTag: 405750c29b34346ba3655acf672e2b1381c64833
